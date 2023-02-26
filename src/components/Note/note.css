@@ -1,0 +1,38 @@
+.note {
+  background-color: #fff;
+  border-radius: 9px;
+  box-shadow: 0 4px 10px #ccc;
+  width: 222px;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+  margin-left: 20px;
+}
+
+.note p {
+  font-size: 1em;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 9px;
+}
+.note .btn {
+  position: relative;
+  float: right;
+  margin-right: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 0.7em;
+  height: 0.7em;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.note .btn :hover {
+  background-color: #f5ba13;
+}

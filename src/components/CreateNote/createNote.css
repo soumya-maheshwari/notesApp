@@ -1,0 +1,36 @@
+.main_note {
+  width: 500px;
+  padding: 15px 10px 5px 10px;
+  margin: 20px auto;
+}
+
+form {
+  min-height: 50px;
+  color: #ecf0f1;
+  padding: 15px 10px 5px 10px;
+  box-shadow: 3px 3px 15px -2px black;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 20px;
+}
+
+input {
+  width: 100%;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  margin: 20px auto;
+  font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  margin: 10px 2px;
+  font-size: 1.5rem;
+}
