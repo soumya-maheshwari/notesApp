@@ -17,6 +17,15 @@ function App() {
 
     console.log(note);
   };
+
+  const onDelete = (id) => {
+    setAddItem((prevData) =>
+      prevData.filter((currData, indx) => {
+        return indx !== id;
+      })
+    );
+    alert("Are you sure you want to delete the note");
+  };
   return (
     <>
       <Navbar />
@@ -31,6 +40,7 @@ function App() {
             id={index}
             title={val.title}
             content={val.content}
+            deleteItem={onDelete}
           />
         );
       })}
