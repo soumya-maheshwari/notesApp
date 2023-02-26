@@ -1,0 +1,8 @@
+.navbar {
+  background-color: gold;
+  height: 80px;
+  display: flex;
+  padding-left: 50px;
+  align-items: center;
+  box-shadow: 5px 3px 15px -5px black;
+}
