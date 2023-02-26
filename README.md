@@ -1,1 +1,1 @@
-(https://soumya-maheshwari.github.io/notesApp/
+https://soumya-maheshwari.github.io/notesApp/
